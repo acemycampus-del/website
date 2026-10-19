@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" fill="none">
+  <!-- IILM Crest -->
+  <g transform="translate(10, 6)">
+    <path d="M4 4h40v26c0 14-20 22-20 22S4 44 4 30V4z" fill="#990000" />
+    <path d="M8 8h32v22c0 10-16 17-16 17S8 40 8 30V8z" fill="#0A2540" />
+    <path d="M24 14v16M16 22h16" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+    <circle cx="24" cy="13" r="3" fill="#F59E0B" />
+  </g>
+  <!-- Text -->
+  <text x="64" y="34" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="28" fill="#0A2540" letter-spacing="1">IILM</text>
+  <text x="65" y="49" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="700" font-size="10.5" fill="#990000" letter-spacing="2">UNIVERSITY</text>
+</svg>

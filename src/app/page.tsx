@@ -1,0 +1,114 @@
+'use client';
+
+import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { Header } from '@/components/Header';
+import { Hero } from '@/components/Hero';
+import { CoreServices } from '@/components/CoreServices';
+import { TrustStats } from '@/components/TrustStats';
+import { TopCollegesShowcase } from '@/components/TopCollegesShowcase';
+import { HomeTestimonials } from '@/components/HomeTestimonials';
+import { FaqSection } from '@/components/FaqSection';
+import { FinalCta } from '@/components/FinalCta';
+import { Footer } from '@/components/Footer';
+import { CounsellingModal } from '@/components/CounsellingModal';
+import { InstitutionModal } from '@/components/InstitutionModal';
+import { WhatsAppButton } from '@/components/WhatsAppButton';
+
+export default function Home() {
+  const router = useRouter();
+  const [audienceMode, setAudienceMode] = useState<'student' | 'institution'>('student');
+  const [counsellingModalOpen, setCounsellingModalOpen] = useState(false);
+  const [institutionModalOpen, setInstitutionModalOpen] = useState(false);
+
+  // Prefill state for the modal
+  const [counsellingPrefill, setCounsellingPrefill] = useState<{
+    stream?: string;
+    classLevel?: string;
+    location?: string;
+    collegeName?: string;
+  }>({});
+
+  const handleOpenCounselling = (serviceOrStepName?: string) => {
+    setCounsellingPrefill({
+      stream: 'Career & College Guidance',
+      collegeName: serviceOrStepName,
+    });
+    setCounsellingModalOpen(true);
+  };
+
+  return (
+    <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      {/* 1. Header with Audience Switcher & Navigation */}
+      <Header
+        audienceMode={audienceMode}
+        setAudienceMode={setAudienceMode}
+        onOpenCounselling={() => handleOpenCounselling()}
+        onOpenInstitutionModal={() => setInstitutionModalOpen(true)}
+      />
+
+      {/* 2. Hero Section with Consultation Form & 4 Highlight Boxes */}
+      <Hero
+        onOpenCounselling={(prefill) => {
+          if (prefill) setCounsellingPrefill(prefill);
+          setCounsellingModalOpen(true);
+        }}
+        onFilterColleges={() => {
+          router.push('/colleges');
+        }}
+      />
+
+      {/* 3. Top Colleges & Universities Showcase (Requested from Slide & PDF) */}
+      <TopCollegesShowcase
+        onOpenCounselling={(collegeName) => handleOpenCounselling(collegeName)}
+      />
+
+      {/* 4. Proven Trust Statistics from Slide 5 (Why trust Ace My Campus?) */}
+      <TrustStats />
+
+      {/* 5. WHAT WE DO: Core Service Pillars + Slide 6 Banner */}
+      <CoreServices
+        onOpenCounselling={handleOpenCounselling}
+        onOpenCollegeFilter={() => {
+          router.push('/colleges');
+        }}
+        onOpenInstitutionModal={() => setInstitutionModalOpen(true)}
+      />
+
+      {/* 6. Testimonials on Home Page (Requested in Page 2 of PDF) */}
+      <HomeTestimonials
+        onOpenCounselling={() => handleOpenCounselling('Student Testimonials')}
+      />
+
+      {/* 7. Frequently Asked Questions (Official 8 FAQs from PDF) */}
+      <FaqSection />
+
+      {/* 8. High-Impact CTA Banner */}
+      <FinalCta onOpenCounselling={() => handleOpenCounselling()} />
+
+
+      {/* 9. Comprehensive Footer */}
+      <Footer
+        onOpenCounselling={() => handleOpenCounselling()}
+        onOpenInstitutionModal={() => setInstitutionModalOpen(true)}
+        hidePreFooter={true}
+      />
+
+      {/* Interactive Counselling Lead Capture Modal */}
+      <CounsellingModal
+        isOpen={counsellingModalOpen}
+        onClose={() => setCounsellingModalOpen(false)}
+        prefillData={counsellingPrefill}
+      />
+
+      {/* Interactive Institution Partnership Modal */}
+      <InstitutionModal
+        isOpen={institutionModalOpen}
+        onClose={() => setInstitutionModalOpen(false)}
+      />
+
+      {/* Sticky Floating WhatsApp Direct Connect Button */}
+      <WhatsAppButton />
+    </main>
+  );
+}

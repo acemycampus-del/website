@@ -373,7 +373,7 @@ export default function CollegesPage() {
                     </div> */}
 
                     {/* Bottom Image Overlay: City & Est Year */}
-                    <div
+                    {/* <div
                       style={{
                         position: 'absolute',
                         bottom: '12px',
@@ -395,8 +395,8 @@ export default function CollegesPage() {
                       </span>
                       {/* <span style={{ opacity: 0.92, fontSize: '0.775rem' }}>
                         Est. {col.established}
-                      </span> */}
-                    </div>
+                      </span> 
+                    </div> */}
                   </div>
 
                   {/* Card Content Body */}

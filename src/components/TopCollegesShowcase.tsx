@@ -25,13 +25,6 @@ export const TopCollegesShowcase: React.FC<TopCollegesShowcaseProps> = ({ onOpen
       mixBlend: true
     },
     {
-      id: 'iilm',
-      name: 'IILM University',
-      src: '/images/colleges/logos/iilm.svg',
-      alt: 'IILM University',
-      maxWidth: '150px'
-    },
-    {
       id: 'bbdu',
       name: 'Babu Banarasi Das University (BBDU)',
       src: '/images/colleges/logos/bbdu-blue.png',
@@ -51,28 +44,14 @@ export const TopCollegesShowcase: React.FC<TopCollegesShowcaseProps> = ({ onOpen
       src: '/images/colleges/logos/aimt.png',
       alt: 'AIMT Lucknow',
       maxWidth: '150px'
-    },
-    {
-      id: 'srmu',
-      name: 'Shri Ramswaroop Memorial University (SRMU)',
-      src: '/images/colleges/logos/srmu.svg',
-      alt: 'SRMU Lucknow',
-      maxWidth: '155px'
-    },
-    {
-      id: 'goel',
-      name: 'Goel Institute of Higher Studies (GIHS)',
-      src: '/images/colleges/logos/goel.svg',
-      alt: 'Goel Institute Lucknow',
-      maxWidth: '155px'
     }
   ];
 
   return (
-    <section 
-      id="top-colleges" 
-      style={{ 
-        background: '#F8FAFC', 
+    <section
+      id="top-colleges"
+      style={{
+        background: '#F8FAFC',
         padding: '34px 0 26px',
         borderTop: '1px solid #E2E8F0',
         borderBottom: '1px solid #E2E8F0'
@@ -80,12 +59,12 @@ export const TopCollegesShowcase: React.FC<TopCollegesShowcaseProps> = ({ onOpen
     >
       <div className="container" style={{ maxWidth: '1200px', margin: '0 auto', textAlign: 'center' }}>
         {/* Title */}
-        <h2 
-          style={{ 
-            fontSize: 'clamp(1.4rem, 2.3vw, 1.85rem)', 
-            color: '#1E293B', 
-            fontWeight: '800', 
-            margin: '0 0 20px 0', 
+        <h2
+          style={{
+            fontSize: 'clamp(1.4rem, 2.3vw, 1.85rem)',
+            color: '#1E293B',
+            fontWeight: '800',
+            margin: '0 0 20px 0',
             fontFamily: 'var(--font-outfit), sans-serif',
             letterSpacing: '-0.01em'
           }}
@@ -94,13 +73,13 @@ export const TopCollegesShowcase: React.FC<TopCollegesShowcaseProps> = ({ onOpen
         </h2>
 
         {/* Only These 5 Logos Row Matching The User Screenshot */}
-        <div 
-          style={{ 
-            display: 'flex', 
-            justifyContent: 'center', 
-            alignItems: 'center', 
-            flexWrap: 'wrap', 
-            gap: '20px' 
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            flexWrap: 'wrap',
+            gap: '20px'
           }}
         >
           {partnerLogos.map((college) => (

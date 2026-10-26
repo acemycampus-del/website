@@ -376,6 +376,25 @@ export const COLLEGES: College[] = [
     tagline: "Top-ranked Lucknow B-School in Gomti Nagar renowned for flagship PGDM/MBA excellence, CXO mentors, and high ROI."
   },
   {
+    id: "iilm-university",
+    name: "IILM University",
+    shortName: "IILM Campuses",
+    city: "Lucknow, Noida, Gurugram & Jaipur",
+    state: "UP, Haryana & Rajasthan",
+    campuses: ["Lucknow", "Greater Noida", "Delhi", "Gurugram", "Jaipur"],
+    streams: ["Management & Commerce", "Engineering & Technology", "Law & Legal Studies", "Computer Applications"],
+    primaryCourse: "PGDM",
+    image: "/images/colleges/iilm-gurugram.jpg",
+    campusType: "Multi-Campus Premier Business School Network",
+    established: 1993,
+    accreditation: "AICTE Approved • UGC Recognized • NBA & NAAC Accredited • AIU Equivalent",
+    feesRange: "₹3.6L - ₹6.8L / year",
+    avgPackage: "₹9.8 LPA",
+    highestPackage: "₹30 LPA",
+    featured: true,
+    tagline: "Renowned management network offering AICTE-approved PGDM across premier campuses in Lucknow (Gomti Nagar), Greater Noida, Gurugram, and Jaipur with unified national placement support."
+  },
+  {
     id: "amity-university",
     name: "Amity University",
     shortName: "Amity University",
@@ -395,27 +414,8 @@ export const COLLEGES: College[] = [
     tagline: "One of India's leading private universities with premier campuses in Lucknow and Noida offering global curriculum, state-of-the-art infrastructure, and stellar MBA placements."
   },
   {
-    id: "bbdu-lucknow",
-    name: "BBDU Lucknow (Babu Banarasi Das University)",
-    shortName: "BBDU Lucknow",
-    city: "Lucknow",
-    state: "Uttar Pradesh",
-    campuses: ["Lucknow"],
-    streams: ["Management & Commerce", "Engineering & Technology", "Computer Applications", "Law & Legal Studies"],
-    primaryCourse: "MBA",
-    image: "/images/colleges/bbdu.jpg",
-    campusType: "100+ Acre Tech & Sports Campus",
-    established: 2010,
-    accreditation: "UGC & AICTE Approved",
-    feesRange: "₹1.2L - ₹2.5L / year",
-    avgPackage: "₹6.5 LPA",
-    highestPackage: "₹44 LPA",
-    featured: true,
-    tagline: "Premier private university in Lucknow offering distinguished MBA, BBA, B.Tech, and Law programs with top placements."
-  },
-  {
     id: "aimt-lucknow",
-    name: "AIMT Lucknow (Ambalika Institute of Management and Technology)",
+    name: "Ambalika Institute of Management and Technology",
     shortName: "AIMT Lucknow",
     city: "Lucknow",
     state: "Uttar Pradesh",
@@ -451,25 +451,7 @@ export const COLLEGES: College[] = [
     featured: true,
     tagline: "Prominent AKTU-affiliated institute on Faizabad Road, Lucknow, offering practical MBA, BBA, BCA, and B.Tech with focused placement drives."
   },
-  {
-    id: "iilm-university",
-    name: "IILM University",
-    shortName: "IILM Campuses",
-    city: "Lucknow, Noida, Gurugram & Jaipur",
-    state: "UP, Haryana & Rajasthan",
-    campuses: ["Lucknow", "Greater Noida", "Gurugram", "Jaipur"],
-    streams: ["Management & Commerce", "Engineering & Technology", "Law & Legal Studies", "Computer Applications"],
-    primaryCourse: "PGDM",
-    image: "/images/colleges/iilm-gurugram.jpg",
-    campusType: "Multi-Campus Premier Business School Network",
-    established: 1993,
-    accreditation: "AICTE Approved • UGC Recognized • NBA & NAAC Accredited • AIU Equivalent",
-    feesRange: "₹3.6L - ₹6.8L / year",
-    avgPackage: "₹9.8 LPA",
-    highestPackage: "₹30 LPA",
-    featured: true,
-    tagline: "Renowned management network offering AICTE-approved PGDM across premier campuses in Lucknow (Gomti Nagar), Greater Noida, Gurugram, and Jaipur with unified national placement support."
-  },
+
   {
     id: "maharishi-lucknow",
     name: "MAHARISHI UNIVERSITY",
@@ -507,6 +489,25 @@ export const COLLEGES: College[] = [
     highestPackage: "₹32 LPA",
     featured: true,
     tagline: "Leading university on Deva Road near Lucknow offering industry-aligned MBA, BBA, B.Tech, and Law programs with state-of-the-art incubation."
+  },
+  {
+    id: "bbdu-lucknow",
+    name: "Babu Banarasi Das University",
+    shortName: "BBDU Lucknow",
+    city: "Lucknow",
+    state: "Uttar Pradesh",
+    campuses: ["Lucknow"],
+    streams: ["Management & Commerce", "Engineering & Technology", "Computer Applications", "Law & Legal Studies"],
+    primaryCourse: "MBA",
+    image: "/images/colleges/bbdu.jpg",
+    campusType: "100+ Acre Tech & Sports Campus",
+    established: 2010,
+    accreditation: "UGC & AICTE Approved",
+    feesRange: "₹1.2L - ₹2.5L / year",
+    avgPackage: "₹6.5 LPA",
+    highestPackage: "₹44 LPA",
+    featured: true,
+    tagline: "Premier private university in Lucknow offering distinguished MBA, BBA, B.Tech, and Law programs with top placements."
   }
 ];
 

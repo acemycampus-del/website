@@ -47,7 +47,7 @@ export default function AboutLayout({
       name: 'Ace My Campus',
       url: 'https://acemycampus.com',
       logo: 'https://acemycampus.com/images/emblem-transparent.png',
-      telephone: '+91-7054545455',
+      telephone: '+91-9793562211',
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Lucknow',

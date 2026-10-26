@@ -130,16 +130,16 @@ const jsonLdSchema = {
       image: `${siteUrl}/images/hero-graduation-banner.jpg`,
       description: 'Premier student-first career discovery and college admissions guidance platform assisting students with verified cut-offs, fee structures, and course options.',
       email: 'acemycampus@gmail.com',
-      telephone: '+91-7054545455',
+      telephone: '+91-9793562211',
       priceRange: '₹0 - 100% Free Guidance',
       currenciesAccepted: 'INR',
       paymentAccepted: 'Free Service for Students',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: 'Hazratganj',
+        streetAddress: 'LDA Colony Ashiyana',
         addressLocality: 'Lucknow',
         addressRegion: 'Uttar Pradesh',
-        postalCode: '226001',
+        postalCode: '226012',
         addressCountry: 'IN',
       },
       geo: {
@@ -156,7 +156,7 @@ const jsonLdSchema = {
       ],
       contactPoint: {
         '@type': 'ContactPoint',
-        telephone: '+91-7054545455',
+        telephone: '+91-9793562211',
         contactType: 'customer support',
         areaServed: 'IN',
         availableLanguage: ['English', 'Hindi'],

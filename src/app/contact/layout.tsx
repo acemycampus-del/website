@@ -45,20 +45,20 @@ export default function ContactLayout({
     mainEntity: {
       '@type': 'EducationalOrganization',
       name: 'Ace My Campus',
-      telephone: '+91-7054545455',
+      telephone: '+91-9793562211',
       email: 'acemycampus@gmail.com',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: 'Hazratganj',
+        streetAddress: 'LDA Colony Ashiyana',
         addressLocality: 'Lucknow',
         addressRegion: 'Uttar Pradesh',
-        postalCode: '226001',
+        postalCode: '226012',
         addressCountry: 'IN',
       },
       contactPoint: [
         {
           '@type': 'ContactPoint',
-          telephone: '+91-7054545455',
+          telephone: '+91-9793562211',
           contactType: 'admissions counselling',
           areaServed: 'IN',
           availableLanguage: ['English', 'Hindi'],

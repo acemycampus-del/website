@@ -272,7 +272,7 @@ export default function ContactPage() {
                   Advisory Centre
                 </div>
                 <div style={{ fontSize: '1.025rem', fontWeight: '800', color: 'var(--navy-primary)', marginTop: '2px', whiteSpace: 'nowrap' }}>
-                  Hazratganj, Lucknow
+                  Ashiyana, Lucknow
                 </div>
                 <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>Mon–Sat: 9:30 AM – 7 PM</div>
               </div>
@@ -280,7 +280,7 @@ export default function ContactPage() {
 
             {/* Card 3: WhatsApp Support */}
             <a
-              href="https://wa.me/917054545455?text=Hello%20ACE%20MY%20CAMPUS,%20I%20would%20like%20to%20get%20college%20consultation."
+              href="https://wa.me/919793562211?text=Hello%20ACE%20MY%20CAMPUS,%20I%20would%20like%20to%20get%20college%20consultation."
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -438,7 +438,7 @@ export default function ContactPage() {
                       Lucknow Advisory Centre (HQ)
                     </strong>
                     <span style={{ color: 'var(--text-body)', fontSize: '0.92rem', lineHeight: '1.5', display: 'block', marginTop: '2px' }}>
-                      Hazratganj Advisory Hub, Lucknow, Uttar Pradesh, 226001, India
+                      LDA Colony Ashiyana, Lucknow, Uttar Pradesh, India - 226012
                     </span>
                   </div>
                 </div>
@@ -530,7 +530,7 @@ export default function ContactPage() {
                   </p>
                 </div>
                 <a
-                  href="https://wa.me/917054545455?text=Hello%20ACE%20MY%20CAMPUS,%20I%20would%20like%20to%20connect%20with%20an%20education%20advisor."
+                  href="https://wa.me/919793562211?text=Hello%20ACE%20MY%20CAMPUS,%20I%20would%20like%20to%20connect%20with%20an%20education%20advisor."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn"
@@ -859,13 +859,13 @@ export default function ContactPage() {
                     Locate Our Central Advisory Centre
                   </h4>
                   <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', margin: 0 }}>
-                    Hazratganj, Lucknow, Uttar Pradesh, 226001
+                    LDA Colony Ashiyana, Lucknow, Uttar Pradesh, India - 226012
                   </p>
                 </div>
               </div>
 
               <a
-                href="https://maps.google.com/?q=Hazratganj,+Lucknow,+Uttar+Pradesh"
+                href="https://maps.google.com/?q=LDA+Colony+Ashiyana,+Lucknow,+Uttar+Pradesh+226012"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline"
@@ -888,7 +888,7 @@ export default function ContactPage() {
             <div style={{ position: 'relative', height: '380px', width: '100%', background: '#E2E8F0' }}>
               <iframe
                 title="Ace My Campus Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14238.641775829699!2d80.93663678589578!3d26.850785191845898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd08151952e5%3A0xb35fae16d4faecb6!2sHazratganj%2C%20Lucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                src="https://maps.google.com/maps?q=LDA%20Colony%20Ashiyana%2C%20Lucknow%2C%20Uttar%20Pradesh%20226012&t=&z=14&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

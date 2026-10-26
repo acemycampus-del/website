@@ -131,7 +131,7 @@ export const Footer: React.FC<FooterProps> = ({
               <MapPin size={18} color="var(--orange-primary)" style={{ flexShrink: 0, marginTop: '2px' }} />
               <div>
                 <span style={{ fontWeight: '600', color: '#ffffff', display: 'block' }}>Central Headquarters</span>
-                <span style={{ fontSize: '0.875rem' }}>Lucknow, Uttar Pradesh, India - 226010</span>
+                <span style={{ fontSize: '0.875rem' }}>LDA Colony Ashiyana, Lucknow, Uttar Pradesh, India - 226012</span>
               </div>
             </div>
 

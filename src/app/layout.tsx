@@ -68,7 +68,7 @@ export const metadata: Metadata = {
   category: "education",
   classification: "College Admissions Guidance & Career Counselling",
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || '',
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || 'IBtTFT7pbwhmMfE7Fv2UhczsInOCxP8cUSZXUtQsmMc',
   },
   robots: {
     index: true,
@@ -190,6 +190,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll-behavior="smooth" className={`${outfit.variable} ${plusJakarta.variable}`}>
       <head>
+        <meta name="google-site-verification" content="IBtTFT7pbwhmMfE7Fv2UhczsInOCxP8cUSZXUtQsmMc" />
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/favicon.png" />
